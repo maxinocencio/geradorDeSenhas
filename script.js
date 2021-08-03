@@ -24,9 +24,9 @@ $(document).ready (function() {
   
     $("#btn1").click( function() {
       
-      $("#btn1").fadeOut("fast");
-      $("#copiar").fadeIn("fast");
-      $("#senhaG").fadeIn("fast");
+      $("#btn1").fadeOut(0);
+      $("#copiar").fadeIn(0);
+      $("#senhaG").fadeIn(0);
       
       });
    
@@ -37,9 +37,9 @@ $(document).ready (function() {
   
     $("#copiar").click( function() {
       
-        $("#copiar").fadeOut("fast");
-        $("#senhaG").fadeOut("fast");
-        $("#btn1").fadeIn("fast");
+        $("#copiar").fadeOut(0);
+        $("#senhaG").fadeOut(0);
+        $("#btn1").fadeIn(0);
       
       });
    
